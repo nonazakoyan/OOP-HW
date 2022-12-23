@@ -7,4 +7,5 @@ def check_age(age: int)->bool:
 def check_name(name: str)->bool:
     if name.isalpha():
         return True
+    print("Invalid input")
     return False
